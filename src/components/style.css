@@ -1,0 +1,73 @@
+body {
+  background-color: #1e252d;
+  font: Helvetica-Neue;
+}
+
+/* NAVBAR STYLES */
+
+.navbar-brand>img {
+  height: 55px;
+  padding: 15px;
+  width: auto;
+}
+
+.navbar-toggler {
+  border: none;
+  float: right;
+  margin-top: 10px;
+}
+
+.main-nav {
+  float: none;
+  vertical-align: top;
+}
+
+/* HEADER STYLES */
+
+.title-header {
+  overflow: hidden;
+}
+
+.title-text {
+  width: 50%;
+  max-width: 500px;
+  padding-left: 85px;
+  display: inline-block;
+  margin-top: 140px;
+}
+
+.digax-title-first {
+  color: #ffc743;
+  font-size: 0.813em;
+  letter-spacing: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+
+.digax-title-second {
+  font-size: 4.375em;
+  color: #ffffff;
+}
+
+/* Account Creation Section */
+
+.account-create {
+  background-color: #ffc743;
+  width: 100%;
+  height: 363px;
+}
+
+.account-create-text {
+  max-width: 700px;
+  padding-left: 85px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.account-create-text-content {
+  margin-top: 50px;
+  font-size: 4.375em;
+  color: #1f252e;
+  line-height: 90px;
+}
