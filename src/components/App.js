@@ -3,7 +3,8 @@ import './style.css';
 
 import Header from './Header';
 import Footer from './Footer';
-import AccountCreate from './AccountCreate'
+import AccountCreate from './AccountCreate';
+import Features from './Features';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <br />
+        <Features />
         <AccountCreate />
         <Footer />
       </div>

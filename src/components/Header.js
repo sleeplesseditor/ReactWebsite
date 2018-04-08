@@ -19,3 +19,5 @@ class Header extends Component {
 }
 
 export default Header;
+
+// Potential for using Redux Sparklines and API for live tracking information under title section //

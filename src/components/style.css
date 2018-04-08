@@ -22,6 +22,10 @@ body {
   vertical-align: top;
 }
 
+.digax-navbar {
+  background-color: #1e252d;
+}
+
 /* HEADER STYLES */
 
 .title-header {
@@ -50,12 +54,42 @@ body {
   color: #ffffff;
 }
 
-/* Account Creation Section */
+/* FEATURES STYLES */
+
+.features-section {
+  height: 110%;
+  overflow: hidden;
+  margin-top: 120px;
+  color: #ffffff;
+}
+
+.features-title {
+  font-size: 2.15em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.feature-details {
+  font-size: 14px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.feature-subheadings {
+  font-size: 26px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+/* TEAM STYLES */
+
+/* ACCOUNT CREATION STYLES */
 
 .account-create {
   background-color: #ffc743;
   width: 100%;
   height: 363px;
+  overflow: hidden;
 }
 
 .account-create-text {
@@ -70,4 +104,35 @@ body {
   font-size: 4.375em;
   color: #1f252e;
   line-height: 90px;
+}
+
+/* FOOTER */
+
+.digax-footer {
+  height: 300px;
+  color: #ffffff;
+  list-style-type: none;
+  line-height: 50px;
+}
+
+.footer-logo {
+  margin-top: 100px;
+  font-size: 15px;
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.footer-logo>img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-col-headings {
+  color: #ffc743;
+  font-size: 0.813em;
+  letter-spacing: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding-top: 20px;
 }
