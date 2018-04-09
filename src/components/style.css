@@ -26,6 +26,12 @@ body {
   background-color: #1e252d;
 }
 
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 /* HEADER STYLES */
 
 .title-header {
@@ -54,6 +60,16 @@ body {
   color: #ffffff;
 }
 
+.product-button {
+  margin-top: 20px;
+  margin-left: 85px;
+}
+
+.staff-button {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
 /* FEATURES STYLES */
 
 .features-section {
@@ -61,6 +77,8 @@ body {
   overflow: hidden;
   margin-top: 120px;
   color: #ffffff;
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 
 .features-title {
@@ -82,6 +100,72 @@ body {
 }
 
 /* TEAM STYLES */
+
+.staff-section {
+  height: 110%;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.staff-title {
+  font-size: 2.15em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.advisor-profile {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.advisor-profile-text {
+  padding: 10px; 
+  line-height: 35px;
+  padding-right: 10px;
+}
+
+.advisor-profile-text-detail {
+  color: #ffc843;
+  font-size: 14px;
+  display: inline-block;
+  text-align: left;
+}
+
+.social-linkedin {
+  float: right;
+  margin-bottom: 0px;
+  line-height: 0px;
+  margin-right: 0px;
+}
+
+.social-twitter {
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  line-height: 0px;
+  margin-bottom: 0px;
+}
+
+.profile-img {
+  border-radius: 120px;
+  background: #2a2e37;
+  height: 150px;
+  float: left;
+  margin-right: 38px;
+  margin-bottom: 38px;
+}
+
+.profile-title {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.profile-text {
+  font-size: 14px;
+  color: #ffffff;
+}
 
 /* ACCOUNT CREATION STYLES */
 

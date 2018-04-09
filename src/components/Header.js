@@ -13,6 +13,10 @@ class Header extends Component {
                     <div className="digax-title-second">Digital Asset</div>
                     <div className="digax-title-second"> Exchange</div>
                 </div>
+                <div>
+                    <button className="product-button btn btn-outline-warning">Our Product</button>
+                    <button className="staff-button btn btn-outline-warning">Who We Are</button>
+                </div>
             </div>
         )
     }

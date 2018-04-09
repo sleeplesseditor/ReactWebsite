@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './style.css';
+import logo from './images/logodigax.png';
 
 class Footer extends Component {
     render() {
@@ -7,7 +8,7 @@ class Footer extends Component {
             <div className="container digax-footer">
                 <div className="row">
                     <div className="footer-logo col">
-                        <img src="https://digax.com/logodigax.png" alt="Digax"/>
+                        <img src={logo} alt="Digax"/>
                         <br/>
                         © Digax Ltd 2018 | digax.com
                     </div>

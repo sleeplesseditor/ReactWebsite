@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './style.css';
 
 import Header from './Header';
-import Footer from './Footer';
-import AccountCreate from './AccountCreate';
 import Features from './Features';
+import Advisor from './Advisor';
+import AccountCreate from './AccountCreate';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Header />
         <br />
         <Features />
+        <Advisor />
         <AccountCreate />
         <Footer />
       </div>
