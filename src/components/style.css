@@ -70,6 +70,20 @@ body {
   margin-left: 10px;
 }
 
+.modal-title {
+  float: left;
+}
+
+.modal-body, .modal-footer {
+  background-color: #1e252d;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
 /* FEATURES STYLES */
 
 .features-section {
@@ -99,6 +113,17 @@ body {
   margin-bottom: 26px;
 }
 
+.feature-icon {
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 7px;
+  margin-top: 30px;
+}
+
+.feature-icon>img {
+  height: 43px;
+}
+
 /* TEAM STYLES */
 
 .staff-section {
@@ -113,20 +138,40 @@ body {
   margin-top: 20px;
 }
 
-.advisor-profile {
+.advisor-profile  {
   height: 100%;
   width: 100%;
   display: inline-block;
   margin-top: 20px;
 }
 
-.advisor-profile-text {
+.advisor-profile-text  {
   padding: 10px; 
   line-height: 35px;
   padding-right: 10px;
 }
 
-.advisor-profile-text-detail {
+.advisor-profile-text-detail  {
+  color: #ffc843;
+  font-size: 14px;
+  display: inline-block;
+  text-align: left;
+}
+
+.staff-profile  {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.staff-profile-text  {
+  padding: 10px; 
+  line-height: 35px;
+  padding-right: 10px;
+}
+
+.staff-profile-text-detail  {
   color: #ffc843;
   font-size: 14px;
   display: inline-block;
@@ -165,6 +210,23 @@ body {
 .profile-text {
   font-size: 14px;
   color: #ffffff;
+}
+
+
+.ion-social-twitter,
+.ion-social-linkedin {
+    -webkit-transition: color 0.2s;
+    color: #888;
+    transition: color 0.2s;
+    font-size: 24px;
+}
+
+.ion-social-linkedin:hover {
+    color: #0077b5;
+}
+
+.ion-social-twitter:hover {
+    color: #0084b4;
 }
 
 /* ACCOUNT CREATION STYLES */

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
 
-
-
 import moneypot from './images/moneypot.png';
 import qrc from './images/qrc.png';
 

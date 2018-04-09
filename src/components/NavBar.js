@@ -31,7 +31,7 @@ class NavBar extends Component {
                             </ul>
                             <ul className="navbar-nav navbar-right">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/">Login</a>
+                                    <a className="nav-link" href="/" data-toggle="modal" data-target="#myModal">Login</a>
                                 </li>
                                 <li>
                                     <a className="nav-link" href="/">Sign Up</a>
@@ -40,8 +40,35 @@ class NavBar extends Component {
                         </div>
                     </div>
                 </nav>
+
+                <div className="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 className="modal-title" id="myModalLabel">Login</h4>
+                            </div>
+                            <div className="modal-body">
+                                <form>
+                                <div className="form-group">
+                                    <label>Email address</label>
+                                    <input type="email" className="form-control" placeholder="Enter Email" />
+                                </div>
+                                <div className="form-group">
+                                    <label>Password</label>
+                                    <input type="password" className="form-control" placeholder="Enter Password" />
+                                </div>
+
+                                </form>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="submit" className="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        )
+        );
     }
 };
 
