@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './style.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import moneypot from './images/moneypot.png';
 import qrc from './images/qrc.png';
@@ -12,6 +13,7 @@ class Advisor extends Component {
                     Advisors
                     <br />
                     <div className="advisor-profile">
+                    <ScrollAnimation animateIn="fadeIn">
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className="advisor-profile-text">
@@ -53,6 +55,7 @@ class Advisor extends Component {
                                 </div>
                             </div>
                         </div>
+                        </ScrollAnimation>
                     </div>
                 </div>
             </div>

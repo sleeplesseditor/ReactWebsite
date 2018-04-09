@@ -16,7 +16,7 @@ class NavBar extends Component {
                         </div>
                         <button className="navbar-toggler pull-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
-                            </button>
+                        </button>
                         <div className="navbar-collapse collapse" id="navbarNav">
                             <ul className="navbar-nav main-nav">
                                 <li className="nav-item">
@@ -45,8 +45,8 @@ class NavBar extends Component {
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 <h4 className="modal-title" id="myModalLabel">Login</h4>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             </div>
                             <div className="modal-body">
                                 <form>
@@ -58,11 +58,10 @@ class NavBar extends Component {
                                     <label>Password</label>
                                     <input type="password" className="form-control" placeholder="Enter Password" />
                                 </div>
-
                                 </form>
                             </div>
                             <div className="modal-footer">
-                                <button type="submit" className="btn btn-default">Submit</button>
+                                <button type="submit" className="btn btn-outline-warning">Submit</button>
                             </div>
                         </div>
                     </div>

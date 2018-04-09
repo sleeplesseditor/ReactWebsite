@@ -6,8 +6,12 @@ class AccountCreate extends Component {
         return (
             <div className="account-create">
                 <div className="account-create-text">
-                    <div className="account-create-text-content">
-                        Create an account to start trading
+                    <div className="row">
+                        <div className="col-lg-11">
+                            <div className="account-create-text-content">
+                                Create an account to start trading
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

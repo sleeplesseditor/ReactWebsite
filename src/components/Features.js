@@ -1,4 +1,6 @@
 import React , { Component } from 'react';
+import './style.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 import security from './images/7.png';
 import compliance from './images/2.png';
@@ -10,10 +12,11 @@ import transparent from './images/6.png';
 class Features extends Component {
     render() {
         return (
-            <div className="features-section" id="features-div">
+            <div className="features-section" id="features">
                 <div className="features-title">
                     Features
                 </div>
+                <ScrollAnimation animateIn="fadeIn">
                 <div className="container">
                     <div className="row">
                         <div className="col feature-details">
@@ -62,6 +65,8 @@ class Features extends Component {
                         </div>
                     </div>
                 </div>
+                </ScrollAnimation>
+                <div id="staff"></div>
             </div>
         )
     }
