@@ -33,16 +33,16 @@ class Footer extends Component {
                         <div className="footer-col-headings">Markets</div>
                         <ul className="list-unstyled">
                             <li>
-                                How to Trade
+                                <a href="/">How to Trade</a>
                             </li>
                             <li>
-                                Statistics
+                                <a href="/">Statistics</a>
                             </li>
                             <li>
-                                Digax Pro
+                                <a href="/">Digax Pro</a>
                             </li>
                             <li>
-                                Listings
+                                <a href="/">Listings</a>
                             </li>
                         </ul>
                     </div>
@@ -50,16 +50,16 @@ class Footer extends Component {
                         <div className="footer-col-headings">Exchange</div>
                         <ul className="list-unstyled">
                             <li>
-                                Status
+                                <a href="/">Status</a>
                             </li>
                             <li>
-                                Blog
+                                <a href="/">Blog</a>
                             </li>
                             <li>
-                                Support
+                                <a href="/">Support</a>
                             </li>
                             <li>
-                                Jobs
+                                <a href="/">Jobs</a>
                             </li>
                         </ul>
                     </div>
@@ -67,16 +67,16 @@ class Footer extends Component {
                         <div className="footer-col-headings">Docs</div>
                         <ul className="list-unstyled">
                             <li>
-                                Terms &amp; Conditions
+                                <a href="/">Terms &amp; Conditions</a>
                             </li>
                             <li>
-                                Privacy Policy
+                                <a href="/">Privacy Policy</a>
                             </li>
                             <li>
-                                API Docs
+                                <a href="/">API Docs</a>
                             </li>
                             <li>
-                                Fees
+                                <a href="/">Fees</a>
                             </li>
                         </ul>
                     </div>
@@ -87,3 +87,5 @@ class Footer extends Component {
 };
 
 export default Footer;
+
+//Potential for some links such as Docs to render Modals

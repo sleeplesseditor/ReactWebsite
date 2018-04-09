@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import './style.css';
 import logo from './images/logodigax.png';
 
+//Modal loads upon clicking of 'Login' button
+
 class NavBar extends Component {
     render() {
         return (

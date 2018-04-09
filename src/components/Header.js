@@ -42,4 +42,6 @@ class Header extends Component {
 
 export default Header;
 
-// Potential for using Redux Sparklines and API for live tracking information under title section //
+/* Potential for using Redux Sparklines and API for live tracking information under laptop image in separare component.
+Component could be applied to user profiles or areas of website.
+*/

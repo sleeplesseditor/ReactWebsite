@@ -20,3 +20,5 @@ class AccountCreate extends Component {
 }
 
 export default AccountCreate;
+
+//Potential for documentation modal to be added here or React Router path

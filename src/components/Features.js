@@ -12,8 +12,8 @@ import transparent from './images/6.png';
 class Features extends Component {
     render() {
         return (
-            <div className="features-section" id="features">
-                <div className="features-title">
+            <div className="features-section">
+                <div className="features-title" id="features">
                     Features
                 </div>
                 <ScrollAnimation animateIn="fadeIn">

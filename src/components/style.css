@@ -120,12 +120,14 @@ body {
   color: #ffffff;
   padding-bottom: 30px;
   padding-top: 40px;
+  top: 0;
 }
 
 .features-title {
   font-size: 2.15em;
   color: #ffffff;
   text-align: center;
+  margin-top: 40px;
 }
 
 .feature-details {
@@ -162,7 +164,7 @@ body {
 .staff-title {
   font-size: 2.15em;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .advisor-profile  {
@@ -239,7 +241,6 @@ body {
   color: #ffffff;
 }
 
-
 .ion-social-twitter,
 .ion-social-linkedin {
     -webkit-transition: color 0.2s;
@@ -307,4 +308,13 @@ body {
   display: inline-block;
   text-transform: uppercase;
   padding-top: 20px;
+}
+
+.digax-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.digax-footer a:hover {
+  color: #888;
 }
