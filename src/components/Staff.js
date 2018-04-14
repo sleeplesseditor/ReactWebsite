@@ -48,7 +48,7 @@ class Staff extends Component {
                                                     <i className="ion-social-linkedin"></i>
                                                 </a>
                                             </div>
-                                            Co-Founder &amp; CEO
+                                            Co-Founder &amp; COO
                                             <br/>
                                             <span className="profile-title">Elliot Whiting</span>
                                             <br />
@@ -89,7 +89,7 @@ class Staff extends Component {
                                                     <i className="ion-social-linkedin"></i>
                                                 </a>
                                             </div>
-                                            COO
+                                            CCO
                                             <br/>
                                             <span className="profile-title">Arta Hysi</span>
                                             <br />
